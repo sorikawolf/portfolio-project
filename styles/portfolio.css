@@ -1,3 +1,19 @@
+body {
+  color: whitesmoke;
+  background-color: black;
+}
+
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 .lato-regular {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -8,4 +24,16 @@
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.hero {
+  text-align: center;
+  padding: 200px 0;
+}
+
+.btn-branding {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px 25px;
 }
