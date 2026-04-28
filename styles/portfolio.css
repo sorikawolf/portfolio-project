@@ -1,6 +1,6 @@
 body {
   color: whitesmoke;
-  background-color: black;
+  min-height: 100vh;
 }
 
 h1 {
@@ -36,4 +36,58 @@ h3 {
   background-color: whitesmoke;
   border-radius: 20px;
   padding: 5px 25px;
+}
+
+.main-background {
+  background: hsla(0, 0%, 0%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#233E50", GradientType=1 );
+}
+
+.reverse-background {
+  background: hsla(0, 0%, 0%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(0, 0%, 0%, 1) 17%,
+    hsla(204, 39%, 23%, 1) 48%,
+    hsla(82, 8%, 28%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#233E50", GradientType=1 );
 }
