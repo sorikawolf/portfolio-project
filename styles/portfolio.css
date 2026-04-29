@@ -104,3 +104,9 @@ h3 {
 .headshot-row {
   padding-bottom: 100px;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    background-image: none;
+  }
+}
