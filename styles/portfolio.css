@@ -105,6 +105,15 @@ h3 {
   padding-bottom: 100px;
 }
 
+.yellowbelly {
+  color: rgb(234, 202, 21);
+  text-decoration: none;
+}
+
+.yellowbelly:hover {
+  color: #ffff00;
+}
+
 @media (max-width: 900px) {
   .hero {
     background-image: none;
