@@ -70,30 +70,26 @@ h3 {
 }
 
 .reverse-background {
-  background: hsla(0, 0%, 0%, 1);
-
+  background: hsla(82, 8%, 28%, 1); /* Was 100% */
   background: linear-gradient(
-    135deg,
-    hsla(0, 0%, 0%, 1) 17%,
-    hsla(204, 39%, 23%, 1) 48%,
-    hsla(82, 8%, 28%, 1) 100%
+    315deg,
+    hsla(82, 8%, 28%, 1) 0%,
+    hsla(204, 39%, 23%, 1) 52%,
+    hsla(0, 0%, 0%, 1) 83%
   );
-
   background: -moz-linear-gradient(
-    135deg,
-    hsla(0, 0%, 0%, 1) 17%,
-    hsla(204, 39%, 23%, 1) 48%,
-    hsla(82, 8%, 28%, 1) 100%
+    315deg,
+    hsla(82, 8%, 28%, 1) 0%,
+    hsla(204, 39%, 23%, 1) 52%,
+    hsla(0, 0%, 0%, 1) 83%
   );
-
   background: -webkit-linear-gradient(
-    135deg,
-    hsla(0, 0%, 0%, 1) 17%,
-    hsla(204, 39%, 23%, 1) 48%,
-    hsla(82, 8%, 28%, 1) 100%
+    315deg,
+    hsla(82, 8%, 28%, 1) 0%,
+    hsla(204, 39%, 23%, 1) 52%,
+    hsla(0, 0%, 0%, 1) 83%
   );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#233E50", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#474C41", endColorstr="#000000", GradientType=1 );
 }
 
 .headshot-gallery-title {
