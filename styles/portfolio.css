@@ -110,6 +110,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
   color: #ffff00;
 }
 
+.about-hero {
+  border: 2px solid whitesmoke;
+  padding: 20px 0 0 0;
+}
+
+.about-paragraph {
+  padding: 150px 0 0 50px;
+  
+}
+
 @media (max-width: 900px) {
   .hero {
     background-image: none;
