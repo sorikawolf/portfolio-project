@@ -70,7 +70,7 @@ h3 {
 }
 
 .reverse-background {
-  background: hsla(82, 8%, 28%, 1); /* Was 100% */
+  background: hsla(82, 8%, 28%, 1);
   background: linear-gradient(
     315deg,
     hsla(82, 8%, 28%, 1) 0%,
