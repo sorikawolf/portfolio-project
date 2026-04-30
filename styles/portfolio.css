@@ -120,6 +120,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
   
 }
 
+.contact-icons a {
+  color: white;
+}
+
+.contact-icons a:hover{
+  color: blue;
+}
+
 @media (max-width: 900px) {
   .hero {
     background-image: none;
