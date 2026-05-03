@@ -130,12 +130,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
   color: blue;
 }
 
-.strange, .work-row img{
+.strange img, .work-row img{
   max-height: 237px;
 }
 
 .strange, .work-hero h1,h3 {
   padding-left: 125px;
+}
+
+.resume {
+  max-width: 1000px;
 }
 
 
