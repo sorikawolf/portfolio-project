@@ -5,6 +5,7 @@ body {
 
 h1 {
   font-size: 72px;
+
 }
 h2 {
   font-size: 18px;
@@ -129,6 +130,17 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
   color: blue;
 }
 
+.strange, .work-row img{
+  max-height: 237px;
+}
+
+.strange, .work-hero h1,h3 {
+  padding-left: 125px;
+}
+
+
+
+  
 @media (max-width: 900px) {
   .hero {
     background-image: none;
