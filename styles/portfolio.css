@@ -170,5 +170,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
   .about-hero{
     border: none;
   }
+  .page-title {
+    font-size: 45px;
+  }
 
 }
