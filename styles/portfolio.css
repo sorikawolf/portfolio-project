@@ -113,12 +113,25 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
 }
 
 .about-hero {
+  max-width: 990px;
+  max-height: 700px;
   border: 2px solid whitesmoke;
+  margin-top: 70px;
   padding: 20px 0 0 0;
 }
 
+.about-hero img {
+  max-height: 600px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.about-hero h1 {
+  font-size: 60px;
+}
+
 .about-paragraph {
-  padding: 150px 0 0 50px;
+  padding: 20px 0 0 50px;
   
 }
 
