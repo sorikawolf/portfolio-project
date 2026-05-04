@@ -154,9 +154,6 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#494D42", en
 .resume {
   max-width: 1000px;
 }
-
-
-
   
 @media (max-width: 900px) {
   .hero {
